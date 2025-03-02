@@ -1,39 +1,39 @@
 Book Finder App
 
-Overview
+> **Overview**
 
 Book Finder is a Flutter application that allows users to search for books, add books to their favourites list, and remove them from favourites. The app uses SQLite for offline storage, GetX for state management, and SharedPreferences for Dark Theme persistence.
 
-Features
+> **Features**
 
-Search Books
+1. Search Books
 
-Add to Favourites
+2. Add to Favourites
 
-Remove from Favourites
+3. Remove from Favourites
 
-Offline Storage with SQLite
+4. Offline Storage with SQLite
 
-GetX State Management
+5. GetX State Management
 
-Dark Theme Support (with SharedPreferences)
+6. Dark Theme Support (with SharedPreferences)
 
-Tech Stack
+**Tech Stack
+> **
+1. Flutter
 
-Flutter
+2. Dart
 
-Dart
+3. GetX
 
-GetX
+4. SQLite
 
-SQLite
+5. SharedPreferences
 
-SharedPreferences
+6. Cached Network Image
 
-Cached Network Image
-
-Setup Instructions
-
+**Setup Instructions
+> **
 Prerequisites
 
 Flutter installed (version 3.10.0 or later)
@@ -46,7 +46,7 @@ Installation
 
 Clone the Repository
 
-git clone https://github.com/username/book_finder.git
+git clone https://github.com/abdulahadofficially/book_finder_app.git
 cd book_finder
 
 Install Dependencies
@@ -57,20 +57,8 @@ Run the App
 
 flutter run
 
-Folder Structure
-
-lib/
-│
-├─ core/             # Core services like DBService and ThemeService
-├─ data/             # Data models
-├─ presentation/     # UI and Controller
-│   ├─ controllers/  # GetX Controllers
-│   ├─ screens/      # App Screens
-│   └─ widgets/      # Reusable Widgets
-└─ main.dart         # Entry Point
-
-Database Setup
-
+**Database Setup
+> **
 SQLite database is automatically initialized when the app runs.
 
 The table name is favourites_books
@@ -81,7 +69,7 @@ Dark Theme is managed through SharedPreferences.
 
 The user's theme preference is saved and applied automatically on app restart.
 
-Usage
+> **Usage**
 
 Click on the Heart Icon ❤️ to add a book to favourites.
 
@@ -90,5 +78,3 @@ Go to the Favourite Screen to view all favourite books.
 Click on the Delete Icon 🗑️ to remove books from favourites.
 
 Toggle Dark Theme from the app settings screen.
-
-Dependencies
